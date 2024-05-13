@@ -1,5 +1,3 @@
-# TheSandBox
-
 ---
 
 Класс Calculator: Реализуйте класс Calculator, который будет иметь методы для
@@ -110,7 +108,7 @@ ucFirst(), який параметром приймає рядок, а пове�
 
 ```javascript
 // Створюємо банківський рахунок
-const account = new BankAccount("12345", 1000, "John Doe");
+const account = new BankAccount('12345', 1000, 'John Doe');
 
 console.log(account.getAccountInfo());
 
@@ -123,10 +121,10 @@ console.log(account.getAccountInfo());
 account.balance = 1500;
 console.log(account.getAccountInfo());
 
-account.ownerName = "Jane Smith";
+account.ownerName = 'Jane Smith';
 console.log(account.getAccountInfo());
 
-BankAccount.setBankName("NewBank");
+BankAccount.setBankName('NewBank');
 console.log(account.getAccountInfo());
 ```
 
@@ -162,22 +160,22 @@ console.log(account.getAccountInfo());
 
 ```js
 const task1 = Task(
-  "Підготувати презентацію",
-  "Підготувати матеріали та слайди для презентації",
-  "2023-09-01",
-  3
+  'Підготувати презентацію',
+  'Підготувати матеріали та слайди для презентації',
+  '2023-09-01',
+  3,
 );
 const task2 = Task(
-  "Зробити покупки",
-  "Купити продукти для приготування обіду",
-  "2023-08-25",
-  2
+  'Зробити покупки',
+  'Купити продукти для приготування обіду',
+  '2023-08-25',
+  2,
 );
 const task3 = Task(
-  "Записати відеоурок",
-  "Записати урок з програмування",
-  "2023-08-28",
-  4
+  'Записати відеоурок',
+  'Записати урок з програмування',
+  '2023-08-28',
+  4,
 );
 ```
 
@@ -268,9 +266,9 @@ const circle = new Circle(0, 0, 5);
 const rectangle = new Rectangle(0, 0, 4, 6);
 const triangle = new Triangle(0, 0, 8, 5);
 
-console.log("Circle area:", circle.calculateArea()); // Output: Circle area: 78.53981633974483
-console.log("Rectangle area:", rectangle.calculateArea()); // Output: Rectangle area: 24
-console.log("Triangle area:", triangle.calculateArea()); // Output: Triangle area: 20
+console.log('Circle area:', circle.calculateArea()); // Output: Circle area: 78.53981633974483
+console.log('Rectangle area:', rectangle.calculateArea()); // Output: Rectangle area: 24
+console.log('Triangle area:', triangle.calculateArea()); // Output: Triangle area: 20
 ```
 
 Завдання полягає у створенні ієрархії класів з використанням успадкування,
